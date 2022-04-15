@@ -21,11 +21,10 @@ public class Cafe_Model {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     @NotNull(message="please enter your correct name")
-    private String Name;
+    private String name;
     @NotNull(message =" Please enter the order")
     private String checkout;
     @NotNull(message =" Please enter the price")
-    @Positive
     private int price;
 
 

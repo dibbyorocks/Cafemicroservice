@@ -19,7 +19,7 @@ import javax.validation.constraints.*;
         @GeneratedValue(strategy = GenerationType.AUTO)
         private int id;
         @NotNull(message = "please enter your correct name")
-        private String Name;
+        private String name;
         @NotNull(message="please enter the orders")
         private String checkout;
         @NotNull(message =" Please enter the price")

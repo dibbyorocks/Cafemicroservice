@@ -11,7 +11,7 @@ public interface CustomerService {
 
 
     @GetMapping("/getAllCustomer")
-   public List<Customer> getAllCustomer()
+   public static List<Customer> getAllCustomer()
     {
        return CustomerService.getAllCustomer();
     }
