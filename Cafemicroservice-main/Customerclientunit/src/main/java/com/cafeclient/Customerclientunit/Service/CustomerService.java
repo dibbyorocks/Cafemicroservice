@@ -10,7 +10,7 @@ import java.util.List;
 public interface CustomerService {
 
 
-    @GetMapping("/getAllCustomer")
+    @GetMapping("/CafeModel/getAllCustomer")
    public static List<Customer> getAllCustomer()
     {
        return CustomerService.getAllCustomer();
