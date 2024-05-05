@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Cafemicroservice-main.iml" filepath="$PROJECT_DIR$/.idea/Cafemicroservice-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springbootdemoproductioneureka.main.iml" filepath="$PROJECT_DIR$/.idea/modules/springbootdemoproductioneureka.main.iml" />
     </modules>
   </component>
 </project>
