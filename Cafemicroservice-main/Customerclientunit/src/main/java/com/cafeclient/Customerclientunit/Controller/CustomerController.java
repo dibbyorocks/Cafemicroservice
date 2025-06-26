@@ -25,14 +25,6 @@ import java.util.List;
         }
 
     }
-/*@RestController
-@RequestMapping("/customer")
-public class CustomerRestController {
-    @Autowired
-    private BankRestConsumer bankRestConsumer;
-    @GetMapping("/allBanks")
-    public List<Bank> getAll(){
-        return bankRestConsumer.getAllBanks();
-    }*/
+
 
 
